@@ -1,0 +1,6 @@
+USE [dataBaseName]
+GO
+--DISABLE
+ALTER TABLE Table_Name DISABLE TRIGGER Trigger_Name
+--ENABLE
+ALTER TABLE Table_Name ENABLE TRIGGER Trigger_Name
